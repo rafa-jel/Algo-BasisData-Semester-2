@@ -21,7 +21,7 @@ public class BinaryTree22 {
                 if (mahasiswa.ipk < current.mahasiswa.ipk) {
                     current = current.left;
                     if (current == null) {
-                        parent.right = newNode;
+                        parent.left = newNode;
                         return;
                     }
                 } else {

@@ -12,7 +12,7 @@ public interface BinaryTreeMain22 {
 
         System.out.println("\nPencarian data mahasiswa :");
         System.out.print("Cari mahasiswa dengan ipk : 3.54");
-        String hasilCari = bst.find(3.54)?"Ditemukan":"Tidak ditemukan";
+        String hasilCari = bst.find(3.54)?" Ditemukan":" Tidak ditemukan";
         System.out.println(hasilCari);
 
         System.out.print("Cari mahasiswa dengan ipk : 3.22");
